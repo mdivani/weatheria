@@ -1,0 +1,16 @@
+.logo {
+    color: $color-primary;
+    cursor: pointer;
+    font-size: $font-large;
+    text-transform: uppercase;
+    transition: all .2s;
+
+    &__tail {
+        color: $color-logo-secondary;
+    }
+
+    &:hover {
+        color: $color-logo-primary;
+        text-decoration: none;
+    }
+}
